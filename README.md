@@ -12,3 +12,7 @@
 --------------------------
 # Create User for Admin dashboard :
 # python manage.py createsuperuser
+--------------------------
+--------------------------
+# Create app inside django project :
+# python manage.py startapp AppName
