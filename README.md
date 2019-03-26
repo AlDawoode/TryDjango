@@ -1,3 +1,11 @@
+
+## **Create local env :**
+```
+virtualenv -p python3 .
+```
+--------------------------
+--------------------------
+
 ## **Run the local env :**
 
 ```
