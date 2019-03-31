@@ -1,4 +1,19 @@
 
+ 
+ 
+  
+## **Create local env + Add a requirements file that include Necessary Dependency for django project  :**
+```
+Create a virtual environment $ python3 -m venv /path/to/new/virtual/env
+Install packages using $pip install <package> command
+Save all the packages in the file with $pip freeze > requirements.txt. Keep in mind that in this case, requirements.txt file will list all packages that have been installed in virtual environment, regardless of where they came from
+
+Install project dependencies
+When if you’re going to share the project with the rest of the world you will need to install dependencies by running $pip install -r requirements.txt
+```
+--------------------------
+--------------------------
+ 
 ## **Create local env :**
 ```
 virtualenv -p python3 .
