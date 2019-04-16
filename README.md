@@ -1,6 +1,15 @@
 
+ --------------------------
+--------------------------
  
+## **Create Django project after you have local env :**
+```
+pip install django
+django-admin startproject sampleapp
+```
  
+--------------------------
+--------------------------
   
 ## **Create local env + Add a requirements file that include Necessary Dependency for django project  :**
 ```
