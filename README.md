@@ -1,5 +1,11 @@
 
+
+$ 
+ ## **You can ignore SSL errors by setting pypi.org and files.pythonhosted.org as trusted hosts. 
+ for Win7:**
+``` 
  --------------------------
+ pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
 --------------------------
  
 ## **Create Django project after you have local env :**
